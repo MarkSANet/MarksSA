@@ -1,8 +1,9 @@
 {
-  "name": "notus-react",
-  "version": "1.1.0",
-  "description": "Notus React - A free Tailwind CSS and React UI Kit and Admin by Creative Tim.",
-  "repository": "https://github.com/creativetimofficial/notus-react",
+  "name": "MarkSA",
+  "version": "1.0.0",
+  "description": "MarkSA - ",
+  "homepage": "https://<github-username>.github.io/<project-repo>",
+  "repository": "https://github.com/MarkSANet/MarkSANet",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
@@ -12,7 +13,7 @@
     "chart.js": "2.9.4",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
-    "postcss": "8.2.8",
+    "postcss": "8.3.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-router": "5.2.0",
