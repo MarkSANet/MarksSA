@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MarkSANet/static/css/main.1dffcd7f.chunk.css",
-    "main.js": "/MarkSANet/static/js/main.c624b48b.chunk.js",
-    "main.js.map": "/MarkSANet/static/js/main.c624b48b.chunk.js.map",
+    "main.js": "/MarkSANet/static/js/main.afb2019e.chunk.js",
+    "main.js.map": "/MarkSANet/static/js/main.afb2019e.chunk.js.map",
     "runtime-main.js": "/MarkSANet/static/js/runtime-main.b85bf52a.js",
     "runtime-main.js.map": "/MarkSANet/static/js/runtime-main.b85bf52a.js.map",
     "static/css/2.aee47789.chunk.css": "/MarkSANet/static/css/2.aee47789.chunk.css",
@@ -40,6 +40,6 @@
     "static/css/2.aee47789.chunk.css",
     "static/js/2.d03d9cf0.chunk.js",
     "static/css/main.1dffcd7f.chunk.css",
-    "static/js/main.c624b48b.chunk.js"
+    "static/js/main.afb2019e.chunk.js"
   ]
 }
