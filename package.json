@@ -2,7 +2,7 @@
   "name": "MarkSA",
   "version": "1.0.0",
   "description": "MarkSA - ",
-  "homepage": "https://MarkSANet.github.io/MarkSANet",
+  "homepage": "https://MarkSANet.github.io",
   "repository": "https://github.com/MarkSANet/MarkSANet",
   "license": "MIT",
   "dependencies": {
