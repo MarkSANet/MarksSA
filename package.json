@@ -6,20 +6,20 @@
   "repository": "https://github.com/MarkSANet/MarkSANet",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.15.3",
-    "@popperjs/core": "2.9.1",
-    "@tailwindcss/forms": "0.2.1",
-    "autoprefixer": "10.2.5",
+    "@fortawesome/fontawesome-free": "5.15.4",
+    "@popperjs/core": "2.9.3",
+    "@tailwindcss/forms": "0.3.3",
+    "autoprefixer": "10.3.2",
     "chart.js": "2.9.4",
     "gulp": "4.0.2",
-    "gulp-append-prepend": "1.0.8",
+    "gulp-append-prepend": "1.0.9",
     "postcss": "8.3.6",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
-    "tailwindcss": "2.0.4"
+    "tailwindcss": "2.2.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,7 +46,7 @@
     ]
   },
   "optionalDependencies": {
-    "typescript": "4.2.3"
+    "typescript": "4.3.5"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
