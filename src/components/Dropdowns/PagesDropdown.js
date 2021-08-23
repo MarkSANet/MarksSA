@@ -19,7 +19,7 @@ const PagesDropdown = () => {
   return (
     <>
       <a
-        className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+        className="cursor-pointer text-2xl leading-none px-3 py-2 border border-solid border-transparent rounded bg-transparent transition duration-500 ease-in-out hover:text-secondary block lg:hidden outline-none focus:outline-none"
         href="#pablo"
         ref={btnDropdownRef}
         onClick={(e) => {
@@ -27,101 +27,55 @@ const PagesDropdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        Demo Pages
+        <i className="text-white fas fa-bars"></i>
       </a>
       <div
         ref={popoverDropdownRef}
         className={
           (dropdownPopoverShow ? "block " : "hidden ") +
-          "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
+          "bg-white text-base z-50 float-left py-2 list-none text-right rounded shadow-lg min-w-48"
         }
       >
-        <span
-          className={
-            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-          }
-        >
-          Admin Layout
-        </span>
+        
         <Link
-          to="/admin/dashboard"
+          to="/"
           className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent transition duration-500 ease-in-out hover:text-secondary text-primary"
           }
         >
-          Dashboard
+          الصفحة الرئيسية
         </Link>
         <Link
-          to="/admin/settings"
+          to="/"
           className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent transition duration-500 ease-in-out hover:text-secondary text-primary"
           }
         >
-          Settings
+          الخدمات
         </Link>
         <Link
-          to="/admin/tables"
+          to="/"
           className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent transition duration-500 ease-in-out hover:text-secondary text-primary"
           }
         >
-          Tables
+          الأعمال
         </Link>
         <Link
-          to="/admin/maps"
+          to="/"
           className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent transition duration-500 ease-in-out hover:text-secondary text-primary"
           }
         >
-          Maps
-        </Link>
-        <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
-        <span
-          className={
-            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-          }
-        >
-          Auth Layout
-        </span>
-        <Link
-          to="/auth/login"
-          className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-          }
-        >
-          Login
+          العملاء
         </Link>
         <Link
-          to="/auth/register"
+          to="/"
           className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent transition duration-500 ease-in-out hover:text-secondary text-primary"
           }
         >
-          Register
-        </Link>
-        <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
-        <span
-          className={
-            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-          }
-        >
-          No Layout
-        </span>
-        <Link
-          to="/landing"
-          className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-          }
-        >
-          Landing
-        </Link>
-        <Link
-          to="/profile"
-          className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-          }
-        >
-          Profile
+          التواصل
         </Link>
       </div>
     </>

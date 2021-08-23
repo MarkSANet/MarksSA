@@ -2,6 +2,7 @@ const plugin = require("tailwindcss/plugin");
 const colors = require("tailwindcss/colors");
 
 module.exports = {
+  mode: 'jit',
   purge: {
     enabled: true,
     content: [
@@ -19,12 +20,19 @@ module.exports = {
     },
   },
   theme: {
-    colors: {
-      ...colors,
-    },
     extend: {
+      colors: {
+        ...colors,
+        primary: '#001152',
+        secondary: '#0045FC',
+        tritary: '#00E0AF',
+        'black-dark': '#1C1C1C',
+        'black-soft': '#40434E',
+        'black-light': '#E6E8EB',
+      },
       minHeight: {
         "screen-75": "75vh",
+        "screen-50": "50vh",
       },
       fontSize: {
         55: "55rem",
