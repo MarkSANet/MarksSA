@@ -1,5 +1,6 @@
 const plugin = require("tailwindcss/plugin");
 const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   mode: 'jit',
@@ -21,6 +22,9 @@ module.exports = {
   },
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["'29LT Azer'", ...defaultTheme.fontFamily.sans]
+      },
       colors: {
         ...colors,
         primary: '#001152',
