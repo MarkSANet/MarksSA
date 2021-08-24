@@ -19,7 +19,7 @@ const PagesDropdown = () => {
   return (
     <>
       <a
-        className="cursor-pointer text-2xl leading-none px-3 py-2 border border-solid border-transparent rounded bg-transparent transition duration-500 ease-in-out hover:text-secondary block lg:hidden outline-none focus:outline-none"
+        className="cursor-pointer text-2xl leading-none px-3 py-2 border-2 rounded bg-transparent transition duration-500 ease-in-out hover:text-secondary block lg:hidden outline-none focus:outline-none"
         href="#pablo"
         ref={btnDropdownRef}
         onClick={(e) => {
@@ -27,7 +27,7 @@ const PagesDropdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        <i className="text-white fas fa-bars"></i>
+        <i className="text-primary align-middle fas fa-bars"></i>
       </a>
       <div
         ref={popoverDropdownRef}

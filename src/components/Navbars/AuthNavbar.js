@@ -28,7 +28,7 @@ export default function Navbar(props) {
 						<ul className="flex flex-col lg:flex-row list-none mr-auto">
 							<li className="flex items-center">
 								<a
-									className="text-primary border-transparent border-b-2 transition duration-500 ease-in-out hover:border-secondary px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+									className="text-primary border-transparent border-b-2 transition duration-500 ease-in-out hover:border-secondary px-3 py-4 lg:py-2 flex items-center text-base uppercase font-bold"
 									href="#"
 									>
 									الصفحة الرئيسية
@@ -37,7 +37,7 @@ export default function Navbar(props) {
 
 							<li className="flex items-center">
 								<a
-									className="text-primary border-transparent border-b-2 transition duration-500 ease-in-out hover:border-secondary px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+									className="text-primary border-transparent border-b-2 transition duration-500 ease-in-out hover:border-secondary px-3 py-4 lg:py-2 flex items-center text-base uppercase font-bold"
 									href="#"
 									>
 									الخدمات
@@ -45,7 +45,7 @@ export default function Navbar(props) {
 							</li>
 							<li className="flex items-center">
 								<a
-									className="text-primary border-transparent border-b-2 transition duration-500 ease-in-out hover:border-secondary px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+									className="text-primary border-transparent border-b-2 transition duration-500 ease-in-out hover:border-secondary px-3 py-4 lg:py-2 flex items-center text-base uppercase font-bold"
 									href="#"
 									>
 									الأعمال
@@ -53,7 +53,7 @@ export default function Navbar(props) {
 							</li>
 							<li className="flex items-center">
 								<a
-									className="text-primary border-transparent border-b-2 transition duration-500 ease-in-out hover:border-secondary px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+									className="text-primary border-transparent border-b-2 transition duration-500 ease-in-out hover:border-secondary px-3 py-4 lg:py-2 flex items-center text-base uppercase font-bold"
 									href="#"
 									>
 									العملاء
@@ -61,7 +61,7 @@ export default function Navbar(props) {
 							</li>
 							<li className="flex items-center">
 								<a
-									className="text-primary border-transparent border-b-2 transition duration-500 ease-in-out hover:border-secondary px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+									className="text-primary border-transparent border-b-2 transition duration-500 ease-in-out hover:border-secondary px-3 py-4 lg:py-2 flex items-center text-base uppercase font-bold"
 									href="#"
 									>
 									التواصل
