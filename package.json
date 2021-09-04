@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm start",
     "build:tailwind": "tailwind build src/assets/styles/index.css -o src/assets/styles/tailwind.css",
-    "deploy" : "npm run build && gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,6 +49,8 @@
     "typescript": "4.3.5"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "daisyui": "^1.14.0",
+    "gh-pages": "^3.2.3",
+    "tailwindcss-container-bleed": "^0.1.3"
   }
 }

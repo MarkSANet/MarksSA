@@ -17,10 +17,13 @@ module.exports = {
       "./public/*.js",
     ],
     options: {
-      safelist: [],
+      safelist: ["@font-face"],
     },
   },
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       fontFamily: {
         sans: ["'29LT Azer'", ...defaultTheme.fontFamily.sans]
@@ -38,8 +41,19 @@ module.exports = {
         "screen-75": "75vh",
         "screen-50": "50vh",
       },
+      lineHeight: {
+        '11': '3rem',
+        '12': '3.5rem',
+        '13': '4rem',
+        '14': '4.5rem',
+        '15': '5rem',
+        '16': '5.5rem',
+        '17': '6rem',
+        '18': '6.5rem',
+      },
       fontSize: {
         55: "55rem",
+        '7.5xl': "5rem",
       },
       opacity: {
         80: ".8",
@@ -69,8 +83,12 @@ module.exports = {
         "95-px": "95px",
         "70-px": "70px",
         "350-px": "350px",
+        "450-px": "450px",
         "500-px": "500px",
         "600-px": "600px",
+      },
+      width: {
+        "361-px": "361px",
       },
       maxHeight: {
         "860-px": "860px",
@@ -109,6 +127,8 @@ module.exports = {
   ],
   plugins: [
     require("@tailwindcss/forms"),
+    require('daisyui'),
+    require('tailwindcss-container-bleed'),
     plugin(function ({ addComponents, theme }) {
       const screens = theme("screens", {});
       addComponents([
