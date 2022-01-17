@@ -209,23 +209,23 @@ export default function Landing() {
 							</div>
 							<div className="w-full md:w-7/12">
 								<div className="bl-container-padding space-x-4 carousel carousel-end">
+								<div className="carousel-item ml-4">
+										<div className="w-361-px h-450-px bg-black-light hover:bg-secondary"></div>
+									</div>
 									<div className="carousel-item ml-4">
 										<div className="w-361-px h-450-px bg-black-light hover:bg-secondary"></div>
 									</div>
-									<div className="carousel-item">
-										<img src="https://picsum.photos/id/502/256/144" />
+									<div className="carousel-item ml-4">
+										<div className="w-361-px h-450-px bg-black-light hover:bg-secondary"></div>
 									</div>
-									<div className="carousel-item">
-										<img src="https://picsum.photos/id/503/256/144" />
+									<div className="carousel-item ml-4">
+										<div className="w-361-px h-450-px bg-black-light hover:bg-secondary"></div>
 									</div>
-									<div className="carousel-item">
-										<img src="https://picsum.photos/id/504/256/144" />
+									<div className="carousel-item ml-4">
+										<div className="w-361-px h-450-px bg-black-light hover:bg-secondary"></div>
 									</div>
-									<div className="carousel-item">
-										<img src="https://picsum.photos/id/505/256/144" />
-									</div>
-									<div className="carousel-item">
-										<img src="https://picsum.photos/id/506/256/144" />
+									<div className="carousel-item ml-4">
+										<div className="w-361-px h-450-px bg-black-light hover:bg-secondary"></div>
 									</div>
 								</div>
 							</div>
