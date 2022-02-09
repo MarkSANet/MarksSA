@@ -62,7 +62,7 @@ export default function Landing() {
 								</h2>
 							</div>
 						</div>
-						<div className="flex flex-wrap">
+						{/* <div className="flex flex-wrap">
 							<div className="w-full md:w-2/12 lg:mb-0 mb-12 px-4">
 								<div className="text-right mt-6">
 									<button
@@ -196,7 +196,7 @@ export default function Landing() {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</section>
 

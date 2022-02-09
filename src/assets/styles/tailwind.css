@@ -7,124 +7,6 @@ Document
 ========
 */
 
-@font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Extra Light"), local("29LTAzer-ExtraLight"), url("../fonts/29LTAzer-ExtraLight.woff2") format("woff2"),
-	  url("../fonts/29LTAzer-ExtraLight.woff") format("woff");
-	font-weight: 200;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Black"), local("29LTAzer-Black"), url("../fonts/29LTAzer-Black.woff2") format("woff2"), url("../fonts/29LTAzer-Black.woff") format("woff");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Bold"), local("29LTAzer-Bold"), url("../fonts/29LTAzer-Bold.woff2") format("woff2"), url("../fonts/29LTAzer-Bold.woff") format("woff");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Light"), local("29LTAzer-Light"), url("../fonts/29LTAzer-Light.woff2") format("woff2"), url("../fonts/29LTAzer-Light.woff") format("woff");
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Medium"), local("29LTAzer-Medium"), url("../fonts/29LTAzer-Medium.woff2") format("woff2"),
-	  url("../fonts/29LTAzer-Medium.woff") format("woff");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Regular"), local("29LTAzer-Regular"), url("../fonts/29LTAzer-Regular.woff2") format("woff2"),
-	  url("../fonts/29LTAzer-Regular.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Thin"), local("29LTAzer-Thin"), url("../fonts/29LTAzer-Thin.woff2") format("woff2"), url("../fonts/29LTAzer-Thin.woff") format("woff");
-	font-weight: 100;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Bold"), local("29LTAzer-Bold"), url("../fonts/29LTAzer-Bold.woff2") format("woff2"), url("../fonts/29LTAzer-Bold.woff") format("woff");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Black"), local("29LTAzer-Black"), url("../fonts/29LTAzer-Black.woff2") format("woff2"), url("../fonts/29LTAzer-Black.woff") format("woff");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Extra Light"), local("29LTAzer-ExtraLight"), url("../fonts/29LTAzer-ExtraLight.woff2") format("woff2"),
-	  url("../fonts/29LTAzer-ExtraLight.woff") format("woff");
-	font-weight: 200;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Light"), local("29LTAzer-Light"), url("../fonts/29LTAzer-Light.woff2") format("woff2"), url("../fonts/29LTAzer-Light.woff") format("woff");
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Medium"), local("29LTAzer-Medium"), url("../fonts/29LTAzer-Medium.woff2") format("woff2"),
-	  url("../fonts/29LTAzer-Medium.woff") format("woff");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Regular"), local("29LTAzer-Regular"), url("../fonts/29LTAzer-Regular.woff2") format("woff2"),
-	  url("../fonts/29LTAzer-Regular.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-  }
-  
-  @font-face {
-	font-family: "29LT Azer";
-	src: local("29LT Azer Thin"), local("29LTAzer-Thin"), url("../fonts/29LTAzer-Thin.woff2") format("woff2"), url("../fonts/29LTAzer-Thin.woff") format("woff");
-	font-weight: 100;
-	font-style: normal;
-	font-display: swap;
-  }
-  
 /**
 Use a better box model (opinionated).
 */
@@ -1925,6 +1807,22 @@ html {
   scroll-snap-align: end;
 }
 
+.checkbox {
+  flex-shrink: 0;
+  --chkbg: var(--bc);
+  --chkfg: var(--b1);
+  -webkit-appearance: none;
+  appearance: none;
+  --tw-border-opacity: 1;
+  --tw-border-opacity: 0.2;
+  border-color: hsla(var(--bc) / var(--tw-border-opacity, 1));
+  border-width: 1px;
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: var(--rounded-btn, .5rem);
+}
+
 .checkbox:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -2170,21 +2068,6 @@ html {
   display: none;
 }
 
-.checkbox {
-  --chkbg: var(--bc);
-  --chkfg: var(--b1);
-  -webkit-appearance: none;
-  appearance: none;
-  --tw-border-opacity: 1;
-  --tw-border-opacity: 0.2;
-  border-color: hsla(var(--bc) / var(--tw-border-opacity, 1));
-  border-width: 1px;
-  cursor: pointer;
-  height: 1.5rem;
-  width: 1.5rem;
-  border-radius: var(--rounded-btn, .5rem);
-}
-
 .checkbox:focus-visible {
   box-shadow: 0 0 0 2px hsl(var(--b1)), 0 0 0 4px hsl(var(--bc));
 }
@@ -2196,6 +2079,15 @@ html {
   -webkit-animation: checkmark var(--animation-input, .2s)  ease-in-out;
   animation: checkmark var(--animation-input, .2s)  ease-in-out;
   background-image: linear-gradient(-45deg, transparent 65%, hsl(var(--chkbg)) 0), linear-gradient(45deg, transparent 75%, hsl(var(--chkbg)) 0), linear-gradient(-45deg, hsl(var(--chkbg)) 40%, transparent 0), linear-gradient(45deg, hsl(var(--chkbg)) 30%, hsl(var(--chkfg)) 0, hsl(var(--chkfg)) 40%, transparent 0), linear-gradient(-45deg, hsl(var(--chkfg)) 50%, hsl(var(--chkbg)) 0);
+}
+
+.checkbox:indeterminate {
+  --tw-bg-opacity: 1;
+  background-color: hsla(var(--bc) / var(--tw-bg-opacity, 1));
+  background-repeat: no-repeat;
+  -webkit-animation: checkmark var(--animation-input, .2s)  ease-in-out;
+  animation: checkmark var(--animation-input, .2s)  ease-in-out;
+  background-image: linear-gradient(90deg, transparent 80%, hsl(var(--chkbg)) 0), linear-gradient(-90deg, transparent 80%, hsl(var(--chkbg)) 0), linear-gradient(0deg, hsl(var(--chkbg)) 43%, hsl(var(--chkfg)) 0, hsl(var(--chkfg)) 57%, hsl(var(--chkbg)) 0);
 }
 
 .checkbox:disabled {
@@ -2571,6 +2463,22 @@ html {
   bottom: auto;
 }
 
+.left-1\/2 {
+  left: 50%;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -2855,6 +2763,10 @@ html {
   height: 5rem;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .h-500-px {
   height: 500px;
 }
@@ -2947,6 +2859,10 @@ html {
   width: 16.666667%;
 }
 
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .w-6\/12 {
   width: 50%;
 }
@@ -2999,6 +2915,18 @@ html {
   border-collapse: collapse;
 }
 
+.translate-x-1\/2 {
+  --tw-translate-x: 50%;
+  -webkit-transform: var(--tw-transform);
+          transform: var(--tw-transform);
+}
+
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  -webkit-transform: var(--tw-transform);
+          transform: var(--tw-transform);
+}
+
 .transform {
   -webkit-transform: var(--tw-transform);
           transform: var(--tw-transform);
@@ -3006,6 +2934,10 @@ html {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
 }
 
 .list-none {
@@ -3186,6 +3118,11 @@ html {
   border-color: transparent;
 }
 
+.border-secondary {
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 69, 252, var(--tw-border-opacity));
+}
+
 .border-blueGray-500 {
   --tw-border-opacity: 1;
   border-color: rgba(100, 116, 139, var(--tw-border-opacity));
@@ -3350,6 +3287,11 @@ html {
   background-color: rgba(249, 115, 22, var(--tw-bg-opacity));
 }
 
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 69, 252, var(--tw-bg-opacity));
+}
+
 .bg-full {
   background-size: 100%;
 }
@@ -3370,6 +3312,10 @@ html {
   fill: currentColor;
 }
 
+.object-contain {
+  object-fit: contain;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -3384,6 +3330,10 @@ html {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .px-4 {
@@ -3805,6 +3755,11 @@ html {
   color: rgba(203, 213, 225, var(--tw-text-opacity));
 }
 
+.text-trueGray-500 {
+  --tw-text-opacity: 1;
+  color: rgba(115, 115, 115, var(--tw-text-opacity));
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
@@ -3862,6 +3817,11 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -3889,6 +3849,10 @@ html {
   transition-duration: 500ms;
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
 .ease-linear {
   transition-timing-function: linear;
 }
@@ -3911,9 +3875,19 @@ html {
   border-color: rgba(0, 69, 252, var(--tw-border-opacity));
 }
 
+.hover\:border-primary:hover {
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 17, 82, var(--tw-border-opacity));
+}
+
 .hover\:bg-secondary:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 69, 252, var(--tw-bg-opacity));
+}
+
+.hover\:bg-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 17, 82, var(--tw-bg-opacity));
 }
 
 .hover\:text-blueGray-500:hover {
@@ -3956,6 +3930,11 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.focus\:shadow-none:focus {
+  --tw-shadow: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -3980,6 +3959,11 @@ html {
 .active\:bg-indigo-600:active {
   --tw-bg-opacity: 1;
   background-color: rgba(79, 70, 229, var(--tw-bg-opacity));
+}
+
+.active\:bg-primary:active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 17, 82, var(--tw-bg-opacity));
 }
 
 .active\:bg-blueGray-50:active {
